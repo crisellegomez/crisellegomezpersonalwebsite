@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="button.js"></script>
+		
+
+	<head>
+	<title> Portfolio</title>
+	<script>
+document.addEventListener("DOMContentLoaded", function(){
+function createParagraph(){
+let para = document.createElement('p');
+para.textContent = 'You liked my portfolio!!';
+document.body.appendChild(para);
+}
+
+const buttons = document.querySelectorAll('button');
+
+for(let i = 0; i < buttons.length; i++) 
+buttons[i].addEventListener('click', createParagraph);
+}
+});
+
+</script>
+</head>
+	<body>
+	
+<div class="port">
+
+            <form class="button">
+              <input type="button" value="Like Website" onclick="msg()"/>
+               </form>
+			
+
+        <h1>Portfolio</h1>
+         		
+		<img src="images/3.jpg" alt="" class="gallery-img">     
+		<img src="images/5.jpg" alt="" class="gallery-img">
+        <img src="images/4.jpg" alt="" class="gallery-img">
+		<img src="images/6.jpg" alt="" class="gallery-img">
+        <img src="images/7.jpg" alt="" class="gallery-img">
+        <img src="images/8.jpg" alt="" class="gallery-img">
+		<img src="images/9.jpg" alt="" class="gallery-img">
+		<img src="images/11.jpg" alt="" class="gallery-img">
+		<img src="images/12.jpg" alt="" class="gallery-img">
+		
+       
+		
+
+</body>
+</html>
+		
